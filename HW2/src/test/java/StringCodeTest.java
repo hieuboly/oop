@@ -1,8 +1,8 @@
-// StringCodeTest
 // Some test code is provided for the early HW1 problems,
 // and much is left for you to add.
 
 import org.junit.Test;
+import src.main.java.StringCode;
 
 import static org.junit.Assert.assertEquals;
 

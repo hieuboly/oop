@@ -1,3 +1,5 @@
+package src.main.java;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.*;
@@ -45,7 +47,7 @@ public class StringCode {
         StringBuffer sb=new StringBuffer();
         for(int i=0;i<n; i++){
             char ch=str.charAt(i);
-            if(Character.isDigit(ch){
+            if(Character.isDigit(ch)){
                if(i<n-1){
                    int m=Character.getNumericValue(ch);
                    for(int j=0;j<m;j++){
@@ -83,4 +85,8 @@ public class StringCode {
         }
 		return false; // YOUR CODE HERE
 	}
+
+    public static void main(String[] args) {
+
+    }
 }
